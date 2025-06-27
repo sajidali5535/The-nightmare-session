@@ -1,0 +1,17 @@
+{
+    "name": "Malvin Session Generator",
+    "description": "Web Session Generator",
+    "logo": "https://tinyurl.com/2dbaqet8",
+    "repository": "https://github.com/sajidali5535/The-nightmare-session",
+    "keywords": ["SAJID-tech","THE-NIGHTMARE"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
